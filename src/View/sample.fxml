@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="20" vgap="20" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerHome">
+   <children>
+      <Pane fx:id="pane" prefHeight="200.0" prefWidth="200.0" />
+      <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" onAction="#night" text="Night">
+         <GridPane.margin>
+            <Insets top="-570.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#morning" text="Morning">
+         <GridPane.margin>
+            <Insets left="65.0" top="-570.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#creator" text="Creator">
+         <GridPane.margin>
+            <Insets left="146.0" top="-570.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#manual" text="Manual">
+         <GridPane.margin>
+            <Insets left="225.0" top="-570.0" />
+         </GridPane.margin></Button>
+      
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

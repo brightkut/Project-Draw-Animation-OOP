@@ -1,0 +1,20 @@
+สิ่งที่แก้ไข
+1.ใน Class Human ได้มีการแก้ไข method drawHuman โดยไม่ให้รับค่าผ่านparameterแล้ว
+2.ใน Class Human ได้มีการแก้ไข method drawBalloonโดยไม่ให้รับค่าผ่านparameterแล้ว
+3.ได้เพิ่ม method drawในส่วนของ Class Human ซึ่งจะใช้ในการวาดออปเจคของHuman
+4.ใน Class King ได้มีการแก้ไข method drawCrownโดยไม่ให้รับค่าผ่านparameterแล้ว
+5.ในClass King ได้มีการเพิ่ม method goUp,goDown,goRight,goLeft ซึ่งoverride มาจาก Class Human ซึ่งเป็นsuper class และมีการแก้ไข method เพิ่มเติมให้ต่างจาก classแม่
+6.ได้เพิ่ม method drawในส่วนของ Class Kingซึ่งจะใช้ในการวาดออปเจคของKing
+7.ใน Class Star ได้มีการแก้ไข method drawStarโดยไม่ให้รับค่าผ่านparameterแล้ว
+8.ใน Class Sun ได้มีการแก้ไข method drawSunโดยไม่ให้รับค่าผ่านparameterแล้ว
+9..ใน Class Wizard ได้มีการแก้ไข method drawWizardโดยไม่ให้รับค่าผ่านparameterแล้ว
+10.ในClass Wizard ได้มีการเพิ่ม method goUp,goDownซึ่งoverride มาจาก Class Human ซึ่งเป็นsuper class และมีการแก้ไข method เพิ่มเติมให้ต่างจาก classแม่
+11.ได้เพิ่ม method drawในส่วนของ Class Wizardซึ่งจะใช้ในการวาดออปเจคของWizard
+12.ในHuman ซึ่งเป็น super class ให้กับ Wizard และ King มีการทำงานที่เหมือนกันคือ method goLeft และgoRight 
+13.ได้เพิ่ม package viewในการเก็บไฟล์ fxml
+14.ในClass ControllerHome ได้แก้ไขในส่วนของ method display โดยบรรทัดที่ 311-319ได้มีการใช้ polymorphism โดยจะเก็บobjectใน arrayแล้วใช้งานmethod draw
+โดย method draw ในเเต่ละรอบของลูปนั้นจะทำงานเเตกต่างกันขึ้นอยู่กับว่าเป็น objectของอะไร
+15.ในClass ControllerHome ได้แก้ไขในส่วนของ method morning โดยบรรทัดที่ 343-351ได้มีการใช้ polymorphism โดยจะเก็บobjectใน arrayแล้วใช้งานmethod draw
+โดย method draw ในเเต่ละรอบของลูปนั้นจะทำงานเเตกต่างกันขึ้นอยู่กับว่าเป็น objectของอะไร
+16.ในClass ControllerHome ได้แก้ไขในส่วนของ method display โดยบรรทัดที่ 389-395ได้มีการใช้ polymorphism โดยจะเก็บobjectใน arrayแล้วใช้งานmethod draw
+โดย method draw ในเเต่ละรอบของลูปนั้นจะทำงานเเตกต่างกันขึ้นอยู่กับว่าเป็น objectของอะไร

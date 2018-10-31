@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerManual">
+  <columnConstraints>
+    <ColumnConstraints />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Pane prefHeight="600.0" prefWidth="600.0" GridPane.columnIndex="1">
+         <children>
+            <Label layoutX="244.0" layoutY="40.0" text="คู่มือการใช้งาน">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="106.0" text="1.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="106.0" text="ตัวจอมเวทย์สามารถขึ้นลงโดยกดปุ่ม">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="425.0" layoutY="106.0" text="f">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="399.0" layoutY="106.0" text="t">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="145.0" text="g">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="117.0" layoutY="145.0" text="h">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="443.0" layoutY="106.0" text="และซ้ายขวาด้วยปุ่ม">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="153.0" layoutY="145.0" text="ตามลำดับ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="46.0" layoutY="180.0" text="2.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="180.0" text="มนุษย์สามารถขึ้นลงโดยกดปุ่ม">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="393.0" layoutY="180.0" text="w">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="423.0" layoutY="180.0" text="s">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="443.0" layoutY="180.0" text="และซ้ายขวาด้วยปุ่ม">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="211.0" text="a">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="116.0" layoutY="211.0" text="d">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="153.0" layoutY="211.0" text="ตามลำดับ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="46.0" layoutY="248.0" text="3.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="248.0" text="พระราชาสามารถเคลื่อนที่ขึ้นลงโดยกดปุ่ม">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="398.0" layoutY="248.0" text="i">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="424.0" layoutY="248.0" text="k">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="443.0" layoutY="248.0" text="และซ้ายขวาด้วยปุ่ม">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="289.0" text="j">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="116.0" layoutY="289.0" text="l">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="153.0" layoutY="289.0" text="ตามลำดับ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="333.0" text="4.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="77.0" layoutY="333.0" text="เอเลี่ยนนั้นสามารถเคลื่อนที่ได้เพียงซ้ายขวาโดยกดปุ่ม">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="483.0" layoutY="333.0" text="c">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="514.0" layoutY="333.0" text="v">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="367.0" text="ตามลำดับ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="411.0" text="5.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="78.0" layoutY="411.0" text="ปุ่ม">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="121.0" layoutY="411.0" text="night">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="183.0" layoutY="411.0" text="และปุ่ม">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="251.0" layoutY="411.0" text="morning ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="453.0" text="เป็นปุ่มเปลี่ยนสภาพท้องฟ้าโดยกลางวันจะมีก้อนเมฆและพระอาทิตย์">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="77.0" layoutY="495.0" text="กลางคืนท้องฟ้าจะมีดาวตกและพระจันทร์">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="270.0" layoutY="548.0" mnemonicParsing="false" onAction="#backToHome" text="Back" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
